@@ -1,34 +1,36 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "korfixdev",
+  "description": "Official Korfix platform plugins for Claude Code: miniapp development and AI assistant for business data queries.",
   "owner": {
     "name": "Korfix",
     "email": "info@korfix.ru",
     "url": "https://korfix.ru"
-  },
-  "metadata": {
-    "description": "Official Korfix platform plugins for Claude Code: miniapp development and AI assistant for business data queries.",
-    "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "korfix-devkit",
       "description": "Develop Korfix marketplace miniapps end-to-end: scaffold, code, validate, package, deploy. Includes 2 agents, 7 skills, bundled docs, optional MCP.",
       "category": "development",
-      "tags": ["korfix", "miniapp", "erp", "marketplace"],
+      "keywords": ["korfix", "miniapp", "erp", "marketplace"],
       "source": {
-        "source": "git",
+        "source": "url",
         "url": "https://github.com/korfixdev/devkit.git"
-      }
+      },
+      "homepage": "https://github.com/korfixdev/devkit",
+      "license": "MIT"
     },
     {
       "name": "korfix-assistant",
       "description": "AI assistant for Korfix ERP business queries via MCP: reports, summaries, record search, create/update — all through natural language.",
-      "category": "ai-assistant",
-      "tags": ["korfix", "erp", "mcp", "business-intelligence"],
+      "category": "productivity",
+      "keywords": ["korfix", "erp", "mcp", "ai-assistant", "business-intelligence"],
       "source": {
-        "source": "git",
+        "source": "url",
         "url": "https://github.com/korfixdev/assistant.git"
-      }
+      },
+      "homepage": "https://github.com/korfixdev/assistant",
+      "license": "MIT"
     }
   ]
 }
