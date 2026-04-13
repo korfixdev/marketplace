@@ -16,8 +16,8 @@
       "category": "development",
       "tags": ["korfix", "miniapp", "erp", "marketplace"],
       "source": {
-        "source": "github",
-        "repo": "korfixdev/devkit"
+        "source": "git",
+        "url": "https://github.com/korfixdev/devkit.git"
       }
     },
     {
@@ -26,8 +26,8 @@
       "category": "ai-assistant",
       "tags": ["korfix", "erp", "mcp", "business-intelligence"],
       "source": {
-        "source": "github",
-        "repo": "korfixdev/assistant"
+        "source": "git",
+        "url": "https://github.com/korfixdev/assistant.git"
       }
     }
   ]
