@@ -10,13 +10,13 @@ Plugin marketplace for the [Korfix](https://korfix.ru) platform. Lists official 
 In Claude Code, type `/plugin` and follow the UI to add a marketplace. When asked for a source, use:
 
 ```
-github:korfixdev/marketplace
+korfixdev/marketplace
 ```
 
 Or via command (older Claude Code versions):
 
 ```
-/plugin marketplace add github:korfixdev/marketplace
+/plugin marketplace add korfixdev/marketplace
 ```
 
 After adding, both plugins appear in the install picker.
@@ -70,13 +70,13 @@ info@korfix.ru
 В Claude Code набери `/plugin` и пройди по UI, чтобы добавить маркетплейс. На запрос source укажи:
 
 ```
-github:korfixdev/marketplace
+korfixdev/marketplace
 ```
 
 Или командой (старые версии Claude Code):
 
 ```
-/plugin marketplace add github:korfixdev/marketplace
+/plugin marketplace add korfixdev/marketplace
 ```
 
 После добавления оба плагина появятся в picker'е установки.
