@@ -32,6 +32,16 @@ Or via command:
 /plugin install korfix-assistant@korfixdev
 ```
 
+## After install — activate in current session
+
+Plugins are not active in your current Claude session right after install. To use them immediately:
+
+```
+/reload-plugins
+```
+
+Or restart Claude Code — plugins load automatically on next start.
+
 ## Setup after install
 
 Both plugins require environment variables — see each plugin's README:
@@ -91,6 +101,16 @@ korfixdev/marketplace
 /plugin install korfix-devkit@korfixdev
 /plugin install korfix-assistant@korfixdev
 ```
+
+## После установки — активация в текущей сессии
+
+Плагины не активируются в текущей сессии Claude сразу после установки. Чтобы пользоваться немедленно:
+
+```
+/reload-plugins
+```
+
+Либо перезапусти Claude Code — плагины подтянутся автоматически при следующем старте.
 
 ## Настройка после установки
 
