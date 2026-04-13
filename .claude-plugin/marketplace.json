@@ -1,0 +1,34 @@
+{
+  "name": "korfixdev",
+  "owner": {
+    "name": "Korfix",
+    "email": "info@korfix.ru",
+    "url": "https://korfix.ru"
+  },
+  "metadata": {
+    "description": "Official Korfix platform plugins for Claude Code: miniapp development and AI assistant for business data queries.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "korfix-devkit",
+      "description": "Develop Korfix marketplace miniapps end-to-end: scaffold, code, validate, package, deploy. Includes 2 agents, 7 skills, bundled docs, optional MCP.",
+      "category": "development",
+      "tags": ["korfix", "miniapp", "erp", "marketplace"],
+      "source": {
+        "source": "github",
+        "repo": "korfixdev/devkit"
+      }
+    },
+    {
+      "name": "korfix-assistant",
+      "description": "AI assistant for Korfix ERP business queries via MCP: reports, summaries, record search, create/update — all through natural language.",
+      "category": "ai-assistant",
+      "tags": ["korfix", "erp", "mcp", "business-intelligence"],
+      "source": {
+        "source": "github",
+        "repo": "korfixdev/assistant"
+      }
+    }
+  ]
+}
